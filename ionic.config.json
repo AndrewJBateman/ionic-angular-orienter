@@ -1,5 +1,7 @@
 {
-  "name": "ionic-angular-orientor",
-  "integrations": {},
+  "name": "ionic-app-base",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

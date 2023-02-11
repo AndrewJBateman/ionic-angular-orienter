@@ -1,16 +1,10 @@
-import { Component, ViewChild } from '@angular/core';
-import { FlexmonsterPivot } from 'ng-flexmonster';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: 'app.component.html',
+  template: `<ion-router-outlet></ion-router-outlet>`,
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
   constructor() {}
-  @ViewChild('pivot') pivot!: FlexmonsterPivot;
-
-  onPivotReady(pivot: Flexmonster.Pivot): void {
-    console.log('[ready] FlexmonsterPivot', this.pivot);
-  }
 }

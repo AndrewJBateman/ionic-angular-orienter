@@ -5,10 +5,11 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
-
+import { FlexmonsterPivotModule } from 'ng-flexmonster';
 
 @NgModule({
   imports: [
+    FlexmonsterPivotModule, 
     CommonModule,
     FormsModule,
     IonicModule,
